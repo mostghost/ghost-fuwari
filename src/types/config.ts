@@ -48,6 +48,8 @@ export enum LinkPreset {
 	Home = 0,
 	Archive = 1,
 	About = 2,
+	Contact = 3,
+	VA = 4
 }
 
 export type NavBarLink = {
