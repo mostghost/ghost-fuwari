@@ -57,6 +57,12 @@ const mainPanelTop = siteConfig.banner.enable
                   src={siteConfig.banner.src} position={siteConfig.banner.position}
     >
     </ImageWrapper>
+</div> 
+<div id="banner-wrapper" class={`relative z-10 w-full transition duration-300 overflow-hidden`} style={`top: -${BANNER_HEIGHT_EXTEND}vh`}>
+<ImageWrapper id="bannerbottom" alt="Bottom Clip" class:list={["z-20 object-cover transition duration-300"]}
+                  src={siteConfig.banner.bottom}
+    >
+    </ImageWrapper>
 </div>}
 
 <!-- Main content -->
