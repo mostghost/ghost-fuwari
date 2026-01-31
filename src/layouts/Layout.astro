@@ -6,6 +6,7 @@ import '@fontsource-variable/jost';
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
 import { profileConfig, siteConfig } from "@/config";
+
 import {
 	AUTO_MODE,
 	BANNER_HEIGHT,
@@ -74,7 +75,8 @@ const bannerOffset =
 ---
 
 <!DOCTYPE html>
-<html lang={siteLang} class="h-full bg-contain bg-start bg-[url('/placeholder_tilingbg.png')]  text-[14px] md:text-[16px]"
+<html lang={siteLang} 
+class="text-[14px] md:text-[16px]"
 	  data-overlayscrollbars-initialize
 >
 	<head>
@@ -156,43 +158,22 @@ const bannerOffset =
 
 		<!-- Parallax overlay -->
 		<div
-		  id="parallax-overlay"
-		  class="pointer-events-none fixed inset-0 bg-[url('/second_bg.png')] bg-contain bg-repeat h-full"
+		  id="parallax-1"
+		  class="fixed inset-0 bg-[url('/bg-layer1.png')] bg-cover bg-repeat"
+		></div>
+		<div
+		  id="parallax-2"
+		  class="fixed inset-0 bg-[url('/bg-layer2.png')] bg-cover bg-repeat"
 		></div>
 
 		<script>
-		// Kludgy parallax implementation for above, could probably be moved into a separate file instead
-		requestAnimationFrame(() => {
-		  const overlay = document.getElementById("parallax-overlay");
-		  if (overlay) { 
-		    let targetY = 0;
-		    let currentY = 0;
-		
-		    const onScroll = () => {
-		      targetY = window.scrollY * 0.5;
-		    };
-		
-		    const animate = () => {
-		      // Smooth lerp: current = current + (target - current) * 0.1
-		      currentY += (targetY - currentY) * 0.12;
-		      overlay.style.backgroundPositionY = `${currentY}px`;
-			
-		      requestAnimationFrame(animate);
-		    };
-		
-		    window.addEventListener("scroll", onScroll, { passive: true });
-		
-		    animate(); // Start smooth loop
+			import { initParallax } from "@/scripts/parallax";
 
-			onScroll(); // Force update on page load
-		  }
-		});
-
-
-</script>
+			initParallax("parallax-1", 0.3);
+			initParallax("parallax-2", 2); 
+		</script>
 
 		<slot />
-
 		<!-- increase the page height during page transition to prevent the scrolling animation from jumping -->
 		<div id="page-height-extend" class="hidden h-[300vh]"></div>
 	</body>
