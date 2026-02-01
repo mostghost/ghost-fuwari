@@ -76,7 +76,7 @@ const bannerOffset =
 
 <!DOCTYPE html>
 <html lang={siteLang} 
-class="text-[14px] md:text-[16px]"
+class="text-[16px] md:text-[20px]"
 	  data-overlayscrollbars-initialize
 >
 	<head>
@@ -159,11 +159,15 @@ class="text-[14px] md:text-[16px]"
 		<!-- Parallax overlay -->
 		<div
 		  id="parallax-1"
-		  class="fixed inset-0 bg-[url('/bg-layer1.png')] bg-cover bg-repeat"
+		  class="fixed inset-0 bg-[url('/bg-layer0.png')] bg-cover bg-repeat-y"
+		></div>
+		<div
+		  id="parallax-1"
+		  class="fixed inset-0 bg-[url('/bg-layer1.png')] bg-center bg-contain bg-repeat-y"
 		></div>
 		<div
 		  id="parallax-2"
-		  class="fixed inset-0 bg-[url('/bg-layer2.png')] bg-cover bg-repeat"
+		  class="fixed inset-0 bg-[url('/bg-layer2.png')] bg-center bg-contain bg-repeat-y"
 		></div>
 
 		<script>

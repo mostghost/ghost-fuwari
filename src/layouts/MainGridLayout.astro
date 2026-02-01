@@ -52,14 +52,14 @@ const mainPanelTop = siteConfig.banner.enable
 </div>
 
 <!-- Banner -->
-{siteConfig.banner.enable && <div id="banner-wrapper" class={`absolute z-10 w-full transition duration-300 overflow-hidden`} style={`top: -${BANNER_HEIGHT_EXTEND}vh`}>
-    <ImageWrapper id="banner" alt="Banner image of the blog" class:list={["object-cover h-full transition duration-300 opacity-0 scale-105"]}
+{siteConfig.banner.enable && <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center transition duration-300 overflow-hidden`} style={`top: -${BANNER_HEIGHT_EXTEND}vh`}>
+    <ImageWrapper id="banner" alt="Banner image of the blog" class:list={["w-[1200px] h-auto max-w-full transition duration-300"]} 
                   src={siteConfig.banner.src} position={siteConfig.banner.position}
     >
     </ImageWrapper>
 </div> 
-<div id="banner-wrapper" class={`absolute z-10 w-full transition duration-300 overflow-hidden`} style={`top: ${BANNER_HEIGHT}vh`}>
-<ImageWrapper id="bannerbottom" alt="Bottom Clip" class:list={["z-20 object-cover transition duration-300 opacity-50"]}
+<div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center items-start transition duration-300 overflow-hidden`} style={`top: ${BANNER_HEIGHT}vh`}>
+<ImageWrapper id="bannerbottom" alt="Bottom Clip" class:list={["w-[1200px] h-auto max-w-full z-20 transition duration-300"]}
                   src={siteConfig.banner.bottom}
     >
     </ImageWrapper>
