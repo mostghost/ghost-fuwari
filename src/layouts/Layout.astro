@@ -158,7 +158,7 @@ class="text-[16px] md:text-[20px] bg-black"
 
 		<!-- Parallax overlay -->
 		<div
-		  id="parallax-1"
+		  id="parallax-0"
 		  class="fixed inset-0 bg-[url('/bg-layer0.png')] bg-cover bg-repeat-y"
 		></div>
 		<div
@@ -169,12 +169,22 @@ class="text-[16px] md:text-[20px] bg-black"
 		  id="parallax-2"
 		  class="fixed inset-0 bg-[url('/bg-layer2.png')] bg-center bg-contain bg-repeat-y"
 		></div>
+		<div
+		  id="parallax-3"
+		  class="fixed inset-0 bg-[url('/bg-layer3.png')] bg-center bg-contain bg-repeat-y"
+		></div>
+		<div
+		  id="parallax-4"
+		  class="fixed inset-0 bg-[url('/bg-layer4.png')] bg-center bg-contain bg-repeat-y"
+		></div>
 
 		<script>
 			import { initParallax } from "@/scripts/parallax";
 
-			initParallax("parallax-1", 0.3);
-			initParallax("parallax-2", 2); 
+			initParallax("parallax-1", 0.5);
+			initParallax("parallax-2", 1); 
+			initParallax("parallax-3", 10);
+			initParallax("parallax-4", 2); 
 		</script>
 
 		<slot />
