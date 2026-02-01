@@ -2,19 +2,17 @@
 
 import { getEntry, render } from "astro:content";
 import Markdown from "@components/misc/Markdown.astro";
-import I18nKey from "../i18n/i18nKey";
-import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
-const vaPost = await getEntry("spec", "va");
+const printPost = await getEntry("spec", "print");
 
-if (!vaPost) {
-	throw new Error("Vertex Alchemy page content not found");
+if (!printPost) {
+	throw new Error("Printing page content not found");
 }
 
-const { Content } = await render(vaPost);
+const { Content } = await render(printPost);
 ---
-<MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
+<MainGridLayout title={"3D Printing"} description={"3D Printing"}>
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">

@@ -15,12 +15,16 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 		name: i18n(I18nKey.archive),
 		url: "/archive/",
 	},
-	[LinkPreset.Contact]: {
-		name: "Contact", // Not much reason to translate this as I expect only english
-		url: "/contact/", // people to see this site.
+	[LinkPreset.Contract]: {
+		name: "Contract", // Not much reason to translate this as I expect only english
+		url: "/contract/", // people to see this site.
 	},
-	[LinkPreset.VA]: {
-		name: "Vertex Alchemy",
-		url: "/va/",
+	[LinkPreset.Tutor]: {
+		name: "Tutor",
+		url: "/tutor/",
+	},
+	[LinkPreset.Print]: {
+		name: "Print",
+		url: "/print/",
 	},
 };
