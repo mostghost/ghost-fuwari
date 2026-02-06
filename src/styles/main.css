@@ -150,3 +150,11 @@
     }
   }
 }
+
+.parallax {
+    @apply fixed inset-0 bg-center bg-contain bg-repeat-y
+}
+
+.parallax-fixed {
+    @apply fixed inset-0 bg-cover bg-repeat-y
+}
