@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Tutor,
 		LinkPreset.Print,
-		LinkPreset.Contract,
+		LinkPreset.Commission,
 		LinkPreset.Archive,
 	],
 };
