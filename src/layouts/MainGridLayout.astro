@@ -52,8 +52,8 @@ const mainPanelTop = siteConfig.banner.enable
 </div>
 
 <!-- Banner -->
-{siteConfig.banner.enable && <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center transition  duration-300`} style={`top: -${BANNER_HEIGHT_EXTEND}vh`}>
-    <ImageWrapper id="banner" alt="Banner image of the blog" class:list={["w-[1200px] h-auto max-w-full transition duration-300"]} 
+{siteConfig.banner.enable && <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center transition`} style={`top: -${BANNER_HEIGHT_EXTEND}vh`}>
+    <ImageWrapper id="banner" alt="Banner image of the blog" class:list={["w-[1200px] h-auto max-w-full transition"]} 
                   src={siteConfig.banner.src} position={siteConfig.banner.position}
     >
     </ImageWrapper>
