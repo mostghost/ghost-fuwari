@@ -139,6 +139,10 @@ class="text-[16px] md:text-[20px] bg-black"
 			let offset = Math.floor(window.innerHeight * (BANNER_HEIGHT_EXTEND / 100));
 			offset = offset - offset % 4;
 			document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`);
+
+			let offset_home = Math.floor(window.innerWidth * (BANNER_HEIGHT_EXTEND / 100));
+			offset_home = offset_home - offset_home % 4;
+			document.documentElement.style.setProperty('--banner-height-extend-main-grid', `${offset_home}px`);
 		</script>
 		<style define:vars={{
 			configHue,
@@ -219,7 +223,7 @@ class="text-[16px] md:text-[20px] bg-black"
 		@apply h-[var(--banner-height-home)] translate-y-[var(--bannerOffset)]
 	}
 	.enable-banner.is-home #main-grid {
-		@apply translate-y-[var(--banner-height-extend)];
+		@apply translate-y-[var(--banner-height-extend-main-grid)];
 	}
 	.enable-banner #top-row {
 		@apply h-[calc(var(--banner-height-home)_-_4.5rem)] transition-all duration-300
@@ -524,7 +528,7 @@ function scrollFunction() {
 		if (document.body.classList.contains('is-home') && window.innerWidth >= 1024) {
 			bannerHeight = BANNER_HEIGHT_HOME
 		}
-		let threshold = window.innerHeight * (bannerHeight / 100) - NAVBAR_HEIGHT - MAIN_PANEL_EXCESS_HEIGHT - 16
+		let threshold = window.innerHeight * (bannerHeight / 100) - NAVBAR_HEIGHT - MAIN_PANEL_EXCESS_HEIGHT
 		if (document.body.scrollTop >= threshold || document.documentElement.scrollTop >= threshold) {
 			navbar.classList.add('navbar-hidden')
 		} else {
@@ -539,6 +543,10 @@ window.onresize = () => {
 	let offset = Math.floor(window.innerHeight * (BANNER_HEIGHT_EXTEND / 100));
 	offset = offset - offset % 4;
 	document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`);
+
+	let offset_home = Math.floor(window.innerWidth * (BANNER_HEIGHT_EXTEND / 100));
+	offset_home = offset_home - offset_home % 4;
+	document.documentElement.style.setProperty('--banner-height-extend-main-grid', `${offset_home}px`);
 }
 
 </script>
