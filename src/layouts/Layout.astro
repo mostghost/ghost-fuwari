@@ -141,7 +141,7 @@ class="text-[16px] md:text-[20px] bg-black"
 			document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`);
 
 			let offset_home = Math.floor(window.innerWidth * (BANNER_HEIGHT_EXTEND / 100));
-			offset_home = offset_home - offset_home % 4;
+			offset_home = offset_home / 3;
 			document.documentElement.style.setProperty('--banner-height-extend-main-grid', `${offset_home}px`);
 		</script>
 		<style define:vars={{
@@ -545,7 +545,7 @@ window.onresize = () => {
 	document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`);
 
 	let offset_home = Math.floor(window.innerWidth * (BANNER_HEIGHT_EXTEND / 100));
-	offset_home = offset_home - offset_home % 4;
+	offset_home = offset_home / 3;
 	document.documentElement.style.setProperty('--banner-height-extend-main-grid', `${offset_home}px`);
 }
 
