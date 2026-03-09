@@ -152,7 +152,7 @@
 }
 
 .parallax {
-    @apply fixed inset-0 bg-center bg-contain bg-repeat-y blur-[2px]
+    @apply fixed inset-0 bg-center bg-contain bg-repeat-y blur-[1.5px]
 }
 
 .parallax-fixed {

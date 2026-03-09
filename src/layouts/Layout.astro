@@ -2,7 +2,7 @@
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import '@fontsource-variable/jost';
+import "@fontsource-variable/jost";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
 import { profileConfig, siteConfig } from "@/config";
@@ -189,11 +189,14 @@ class="text-[16px] md:text-[20px] bg-black"
 		<script>
 			import { initParallax } from "@/scripts/parallax";
 
-			initParallax("parallax-1", 0.5);
-			initParallax("parallax-2", 1); 
-			initParallax("parallax-3", 0.5);
-			initParallax("parallax-4", 2);
-			initParallax("parallax-5", -2); 
+    		if (window.innerWidth > 768) {
+			
+    		    initParallax("parallax-1", 0.5);
+    		    initParallax("parallax-2", 1); 
+    		    initParallax("parallax-3", 0.5);
+    		    initParallax("parallax-4", 2);
+    		    initParallax("parallax-5", -2); 
+    		}
 		</script>
 
 		<slot />
