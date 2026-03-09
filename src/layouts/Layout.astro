@@ -66,8 +66,8 @@ if (!lang) {
 const siteLang = lang.replace("_", "-");
 
 const bannerOffsetByPosition = {
-	top: `${BANNER_HEIGHT_EXTEND}vh`,
-	center: `${BANNER_HEIGHT_EXTEND / 2}vh`,
+	top: `${BANNER_HEIGHT_EXTEND}dvh`,
+	center: `${BANNER_HEIGHT_EXTEND / 2}dvh`,
 	bottom: "0",
 };
 const bannerOffset =
@@ -201,14 +201,14 @@ class="text-[16px] md:text-[20px] bg-black"
 
 		<slot />
 		<!-- increase the page height during page transition to prevent the scrolling animation from jumping -->
-		<div id="page-height-extend" class="hidden h-[300vh]"></div>
+		<div id="page-height-extend" class="hidden h-[300dvh]"></div>
 	</body>
 </html>
 
 <style is:global define:vars={{
 	bannerOffset,
-	'banner-height-home': `${BANNER_HEIGHT_HOME}vh`,
-	'banner-height': `${BANNER_HEIGHT}vh`,
+	'banner-height-home': `${BANNER_HEIGHT_HOME}dvh`,
+	'banner-height': `${BANNER_HEIGHT}dvh`,
 }}>
 @tailwind components;
 @layer components {
