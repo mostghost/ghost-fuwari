@@ -53,10 +53,10 @@ const mainPanelTop = siteConfig.banner.enable
 
 <!-- Banner -->
 {siteConfig.banner.enable && <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center`} style={`top: -${BANNER_HEIGHT_EXTEND}vh`}>
-    <ImageWrapper id="banner" alt="Banner image of the blog" class:list={["w-[1200px] h-auto max-w-full"]} 
-                  src={siteConfig.banner.src} position={siteConfig.banner.position}
-    >
-    </ImageWrapper>
+ <video width="1200" id="banner" class="pointer-events-none w-full h-auto w-[1200px]" style="object-position: top" autoplay loop>
+  <source src="/public/banner/banner.webm"  type="video/webm">
+Your browser does not support the video tag.
+</video> 
 </div> 
 <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center items-start transition duration-300 overflow-hidden`} style={`top: ${BANNER_HEIGHT-1}vh`}>
 <ImageWrapper id="bannerbottom" alt="Bottom Clip" class:list={["w-[1200px] h-auto max-w-full z-20 transition duration-300"]}

@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/banner/banner.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "", // Ignore this, video is imported directly in MainGridLayout
 		bottom: "assets/banner/banner-bottom.png",
 		position: "top", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
