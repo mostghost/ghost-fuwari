@@ -53,11 +53,38 @@ const mainPanelTop = siteConfig.banner.enable
 
 <!-- Banner -->
 {siteConfig.banner.enable && <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center`} style={`top: -${BANNER_HEIGHT_EXTEND}dvh`}>
- <video width="1200" id="banner" class="pointer-events-none w-full h-auto w-[1200px]" style="object-position: top" muted autoplay loop playsinline>
+ <video 
+    width="1200" 
+    id="banner" 
+    class="pointer-events-none w-full h-auto w-[1200px]" 
+    style="object-position: top" 
+    preload="auto"
+    playsinline="true"
+    autoplay muted loop playsinline>
   <source src="/banner/banner.webm"  type="video/webm">
 Your browser does not support the video tag.public/bglayers/bg-layer1.png
 </video> 
-</div> 
+</div>
+
+<script>
+  {/* Copy pasted code, spawns a watcher that watches for when video is visible in
+  viewport, then plays video, then deletes the watcher. Forces autoplay on mobile. */}
+
+  const video = document.getElementById("banner");
+  
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          video.play();
+          observer.disconnect();
+        }
+      });
+    });
+    observer.observe(video);
+  }
+</script>
+
 <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center items-start transition duration-300 overflow-hidden`} style={`top: ${BANNER_HEIGHT-1}dvh`}>
 <ImageWrapper id="bannerbottom" alt="Bottom Clip" class:list={["w-[1200px] h-auto max-w-full z-20 transition duration-300"]}
                   src={siteConfig.banner.bottom}
