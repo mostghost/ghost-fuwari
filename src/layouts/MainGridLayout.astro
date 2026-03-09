@@ -72,6 +72,12 @@ Your browser does not support the video tag.public/bglayers/bg-layer1.png
 
   const video = document.getElementById("banner");
   
+    if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => video.play());
+  } else {
+    video.play();
+  }
+
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {

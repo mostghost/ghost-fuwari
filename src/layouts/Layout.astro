@@ -552,6 +552,14 @@ window.onresize = () => {
 	document.documentElement.style.setProperty('--banner-height-extend-main-grid', `${offset_home}px`);
 }
 
+  // Trying to jiggle the page to force this on mobile.
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => 
+	document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`));
+  } else {
+    document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`);
+  }
+
 </script>
 
 <script>
