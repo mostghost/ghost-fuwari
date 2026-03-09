@@ -37,7 +37,7 @@ const hasBannerCredit =
 const hasBannerLink = !!siteConfig.banner.credit.url;
 
 const mainPanelTop = siteConfig.banner.enable
-	? `calc(${BANNER_HEIGHT}vh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)`
+	? `calc(${BANNER_HEIGHT}dvh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)`
 	: "5.5rem";
 ---
 
@@ -52,13 +52,13 @@ const mainPanelTop = siteConfig.banner.enable
 </div>
 
 <!-- Banner -->
-{siteConfig.banner.enable && <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center`} style={`top: -${BANNER_HEIGHT_EXTEND}vh`}>
+{siteConfig.banner.enable && <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center`} style={`top: -${BANNER_HEIGHT_EXTEND}dvh`}>
  <video width="1200" id="banner" class="pointer-events-none w-full h-auto w-[1200px]" style="object-position: top" autoplay loop>
   <source src="/banner/banner.webm"  type="video/webm">
-Your browser does not support the video tag.
+Your browser does not support the video tag.public/bglayers/bg-layer1.png
 </video> 
 </div> 
-<div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center items-start transition duration-300 overflow-hidden`} style={`top: ${BANNER_HEIGHT-1}vh`}>
+<div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center items-start transition duration-300 overflow-hidden`} style={`top: ${BANNER_HEIGHT-1}dvh`}>
 <ImageWrapper id="bannerbottom" alt="Bottom Clip" class:list={["w-[1200px] h-auto max-w-full z-20 transition duration-300"]}
                   src={siteConfig.banner.bottom}
     >
