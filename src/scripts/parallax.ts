@@ -1,8 +1,8 @@
 export function initParallax(
 	elementId: string,
 	speed = 0.5,
+	fps = 24, 
 	smooth = 0.12,
-	fps = 48, 
   // Slightly less CPU drain than 60, and plus I feel it looks a little nicer.
 ) {
 	requestAnimationFrame(() => {

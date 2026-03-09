@@ -62,22 +62,17 @@ const mainPanelTop = siteConfig.banner.enable
     playsinline="true"
     autoplay muted loop playsinline>
   <source src="/banner/banner.webm"  type="video/webm">
-Your browser does not support the video tag.public/bglayers/bg-layer1.png
+Your browser does not support the video 
 </video> 
 </div>
 
 <script>
   {/* Copy pasted code, spawns a watcher that watches for when video is visible in
-  viewport, then plays video, then deletes the watcher. Forces autoplay on mobile. */}
+  viewport, then plays video, then deletes the watcher. 
+  Also another fallback to play on click. Will replace all this with better code. */}
 
   const video = document.getElementById("banner");
   
-    if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => video.play());
-  } else {
-    video.play();
-  }
-
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -89,6 +84,13 @@ Your browser does not support the video tag.public/bglayers/bg-layer1.png
     });
     observer.observe(video);
   }
+
+  ['touchstart', 'click'].forEach(event => {
+    document.body.addEventListener(event, function handler(e) {
+      video.play();
+      // Remove listener after first interaction
+      document.body.removeEventListener(event, handler);
+    }, { once: true });})
 </script>
 
 <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center items-start transition duration-300 overflow-hidden`} style={`top: ${BANNER_HEIGHT-1}dvh`}>

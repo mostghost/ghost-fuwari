@@ -189,14 +189,14 @@ class="text-[16px] md:text-[20px] bg-black"
 		<script>
 			import { initParallax } from "@/scripts/parallax";
 
-    		if (window.innerWidth > 768) {
-			
-    		    initParallax("parallax-1", 0.5);
-    		    initParallax("parallax-2", 1); 
-    		    initParallax("parallax-3", 0.5);
-    		    initParallax("parallax-4", 2);
-    		    initParallax("parallax-5", -2); 
-    		}
+			let fps = window.innerWidth > 768 ? 48 : 24;
+
+    		initParallax("parallax-1", 0.5, fps);
+    		initParallax("parallax-2", 1, fps, 0.5); 
+    		initParallax("parallax-3", 0.5, fps);
+    		initParallax("parallax-4", 2, fps, 0.075);
+    		initParallax("parallax-5", -2, fps, 0.3); 
+
 		</script>
 
 		<slot />
@@ -552,13 +552,6 @@ window.onresize = () => {
 	document.documentElement.style.setProperty('--banner-height-extend-main-grid', `${offset_home}px`);
 }
 
-  // Trying to jiggle the page to force this on mobile.
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => 
-	document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`));
-  } else {
-    document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`);
-  }
 
 </script>
 
