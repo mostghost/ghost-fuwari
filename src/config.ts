@@ -17,8 +17,8 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "/banner/banner.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		bottom: "/banner/banner-bottom.png",
+		src: "assets/banner/banner.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		bottom: "assets/banner/banner-bottom.png",
 		position: "top", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -51,7 +51,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	// `pnpm add @iconify-json/<icon-set-name>`
-	avatar: "/avatar/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/avatar/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "M.D.",
 	bio: "Independent 3D Artist. A flesh automaton animated by neurotransmitters. Not yet fully consumed by the infernal machine.",
 	links: [
