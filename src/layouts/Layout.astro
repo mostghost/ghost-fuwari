@@ -174,10 +174,6 @@ class="text-[16px] md:text-[20px] bg-black"
 		  class="parallax bg-[url('/bglayers/bg-layer2.png')]"
 		></div>
 		<div
-		  id="parallax-3"
-		  class="parallax bg-[url('/bglayers/bg-layer3.png')]"
-		></div>
-		<div
 		  id="parallax-4"
 		  class="parallax bg-[url('/bglayers/bg-layer5.png')]"
 		></div>
@@ -191,11 +187,10 @@ class="text-[16px] md:text-[20px] bg-black"
 
 			let fps = window.innerWidth > 768 ? 48 : 24;
 
-    		initParallax("parallax-1", 0.5, fps);
-    		initParallax("parallax-2", 1, fps, 0.5); 
-    		initParallax("parallax-3", 0.5, fps);
-    		initParallax("parallax-4", 2, fps, 0.075);
-    		initParallax("parallax-5", -2, fps, 0.3); 
+    		initParallax("parallax-1", 0.5, fps, 0.075);
+    		initParallax("parallax-2", 1, fps, 0.2); 
+    		initParallax("parallax-4", -0.5, fps, 0.4);
+    		initParallax("parallax-5", -1.25, fps, 0.3); 
 
 		</script>
 
