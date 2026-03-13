@@ -37,7 +37,7 @@ const hasBannerCredit =
 const hasBannerLink = !!siteConfig.banner.credit.url;
 
 const mainPanelTop = siteConfig.banner.enable
-	? `calc(${BANNER_HEIGHT}dvh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)`
+	? `calc(${BANNER_HEIGHT}vh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)`
 	: "5.5rem";
 ---
 
@@ -56,9 +56,8 @@ const mainPanelTop = siteConfig.banner.enable
  <video 
     width="1200" 
     id="banner" 
-    class="pointer-events-none w-full h-auto w-[1200px]" 
-    style="object-position: top" 
-    preload="auto"
+    class="pointer-events-none w-full h-auto" 
+    style={{ objectPosition: 'top' }}
     playsinline="true"
     autoplay muted loop playsinline>
   <source src="/banner/banner.webm"  type="video/webm">
@@ -67,31 +66,22 @@ Your browser does not support the video
 </div>
 
 <script>
-  {/* Copy pasted code, spawns a watcher that watches for when video is visible in
-  viewport, then plays video, then deletes the watcher. 
-  Also another fallback to play on click. Will replace all this with better code. */}
-
-  const video = document.getElementById("banner");
-  
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          video.play();
-          observer.disconnect();
-        }
-      });
-    });
-    observer.observe(video);
-  }
-
-  ['touchstart', 'click'].forEach(event => {
-    document.body.addEventListener(event, function handler(e) {
-      video.play();
-      // Remove listener after first interaction
-      document.body.removeEventListener(event, handler);
-    }, { once: true });})
+window.addEventListener("click", () => {
+    const video = document.getElementById('banner');
+    video.play();
+});
 </script>
+
+<script>
+{/* Force trigger reflow - fixes banner misplacement on mobile */}
+if (window.innerWidth < 750) {
+    window.addEventListener("load", () => {
+        document.body.offsetHeight;
+        window.dispatchEvent(new Event('resize'));
+    });
+}
+</script>
+
 
 <div id="banner-wrapper" class={`absolute z-10 w-full flex justify-center items-start transition duration-300 overflow-hidden`} style={`top: ${BANNER_HEIGHT-1}dvh`}>
 <ImageWrapper id="bannerbottom" alt="Bottom Clip" class:list={["w-[1200px] h-auto max-w-full z-20 transition duration-300"]}
