@@ -62,24 +62,53 @@ const mainPanelTop = siteConfig.banner.enable
     autoplay muted loop playsinline>
   <source src="/banner/banner.webm"  type="video/webm">
 Your browser does not support the video 
-</video> 
+</video>
+    <img 
+        src="/banner/tapblocked.webp" 
+        id="mobile-tap-icon" 
+        class="w-[1200px] z-20 transition duration-300 absolute z-15 justify-start transition duration-300 opacity-0"
+        alt="Tap me, please."
+/>
 </div>
 
 <script>
-window.addEventListener("click", () => {
-    const video = document.getElementById('banner');
-    video.play();
-});
-</script>
-
-<script>
 {/* Force trigger reflow - fixes banner misplacement on mobile */}
+{/* Checking by window width is clumsy, but harmless,
+since forcing a reflow on desktop makes no percievable difference */}
 if (window.innerWidth < 750) {
     window.addEventListener("load", () => {
         document.body.offsetHeight;
         window.dispatchEvent(new Event('resize'));
     });
 }
+
+{/* Show and hide 'tap me' prompt when autoplay is blocked */}
+const video = document.getElementById("banner") as HTMLVideoElement | null;
+const tapElement = document.getElementById("mobile-tap-icon") as HTMLElement | null;
+
+if (video && tapElement) {
+  const playPromise = video.play();
+
+  if (playPromise !== undefined) {
+    playPromise
+      .then(() => {
+        tapElement.classList.add("opacity-0");
+      })
+      .catch(() => {
+        tapElement.classList.remove("opacity-0");
+
+        window.addEventListener(
+          "click",
+          () => {
+            video.play();
+            tapElement.classList.add("opacity-0");
+          },
+          { once: true }
+        );
+      });
+  }
+}
+
 </script>
 
 
