@@ -66,7 +66,7 @@ Your browser does not support the video
     <img 
         src="/banner/tapblocked.webp" 
         id="mobile-tap-icon" 
-        class="w-[1200px] z-20 transition duration-300 absolute z-15 justify-start transition duration-300 opacity-0"
+        class="w-[1200px] z-20 transition duration-300 absolute z-15 justify-start transition duration-700 opacity-0"
         alt="Tap me, please."
 />
 </div>
@@ -84,7 +84,7 @@ if (window.innerWidth < 750) {
 
 {/* Show and hide 'tap me' prompt when autoplay is blocked */}
 const video = document.getElementById("banner") as HTMLVideoElement | null;
-const tapElement = document.getElementById("mobile-tap-icon") as HTMLElement | null;
+const tapElement = document.getElementById("mobile-tap-icon") as HTMLImageElement | null;
 
 if (video && tapElement) {
   const playPromise = video.play();
@@ -102,6 +102,7 @@ if (video && tapElement) {
           () => {
             video.play();
             tapElement.classList.add("opacity-0");
+            tapElement.src = '/banner/tapclicked.webp';
           },
           { once: true }
         );
