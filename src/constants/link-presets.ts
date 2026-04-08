@@ -15,9 +15,9 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 		name: i18n(I18nKey.archive),
 		url: "/archive/",
 	},
-	[LinkPreset.Commission]: {
-		name: "Commission", // Not much reason to translate this as I expect only english
-		url: "/commission/", // people to see this site.
+	[LinkPreset.Freelance]: {
+		name: "Freelance", // Not much reason to translate this as I expect only english
+		url: "/freelance/", // people to see this site.
 	},
 	[LinkPreset.Tutor]: {
 		name: "Tutor",

@@ -49,7 +49,7 @@ export enum LinkPreset {
 	Home = 0,
 	Archive = 1,
 	About = 2,
-	Commission = 3,
+	Freelance = 3,
 	Tutor = 4,
 	Print = 5,
 }

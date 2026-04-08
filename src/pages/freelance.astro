@@ -6,15 +6,15 @@ import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
-const commissionPost = await getEntry("spec", "commission");
+const freelancePost = await getEntry("spec", "freelance");
 
-if (!commissionPost) {
-	throw new Error("Commission page content not found");
+if (!freelancePost) {
+	throw new Error("Freelance page content not found");
 }
 
-const { Content } = await render(commissionPost);
+const { Content } = await render(freelancePost);
 ---
-<MainGridLayout title={"Commission"} description={"Commission"}>
+<MainGridLayout title={"Freelance"} description={"Freelance"}>
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">
