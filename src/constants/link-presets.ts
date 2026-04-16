@@ -24,7 +24,7 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 		url: "/tutor/",
 	},
 	[LinkPreset.Print]: {
-		name: "3D Print",
+		name: "3D Printing",
 		url: "/print/",
 	},
 };
