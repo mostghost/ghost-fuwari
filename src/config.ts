@@ -53,30 +53,33 @@ export const profileConfig: ProfileConfig = {
 	// `pnpm add @iconify-json/<icon-set-name>`
 	avatar: "assets/avatar/avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "M.D.",
-	bio: "Independent 3D Artist. A flesh automaton animated by neurotransmitters. Not yet fully consumed by the infernal machine.",
+	bio: "Independent 3D Artist. A flesh automaton animated by neurotransmitters. Some day consumed by the infernal machine.",
 	links: [
 		{
 			name: "Email",
 			icon: "material-symbols:stacked-email",
 			url: "mailto:md@homonkulos.studio",
 		},
-		{
-			name: "ArtStation",
-			icon: "fa6-brands:artstation",
-			url: "https://www.artstation.com/homonkulos",
-		},
-		{
-			name: "Bluesky",
-			icon: "fa6-brands:square-bluesky",
-			url: "https://bsky.app/profile/homonkulos.bsky.social",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/mostghost",
-		},
 	],
 };
+
+
+		// {
+		// 	name: "ArtStation",
+		// 	icon: "fa6-brands:artstation",
+		// 	url: "https://www.artstation.com/homonkulos",
+		// },
+		// {
+		// 	name: "Bluesky",
+		// 	icon: "fa6-brands:square-bluesky",
+		// 	url: "https://bsky.app/profile/homonkulos.bsky.social",
+		// },
+		// {
+		// 	name: "GitHub",
+		// 	icon: "fa6-brands:github",
+		// 	url: "https://github.com/mostghost",
+		// },
+
 
 export const licenseConfig: LicenseConfig = {
 	enable: false,
