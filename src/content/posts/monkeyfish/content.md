@@ -5,7 +5,7 @@ description: Suzanne is the ʇʅnɐɟǝp ʅǝpoɯ ɑuq wɑƨcoL rof rednelb.
 image: "./0027.webp"
 tags: ["blender", "model", "animation"]
 category: 3D
-draft: false
+draft: true
 ---
 
 To be totally honest, this is a complete nothingburger of a project. It's not really a project at all, just something that popped out while simply messing around and playing with blender and tormenting poor Suzanne, as I often do.
