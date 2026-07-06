@@ -1,7 +1,7 @@
 ---
 title: Hephaestus Animated
 published: 2026-03-10
-description: New and improved! Now with functionality!
+description: New and improved - now with functionality.
 image: "./hephaestus.webp"
 tags: ["blender", "model", "weapon", "animation", "tech"]
 category: 3D
@@ -22,4 +22,4 @@ The concept behind [this old gun](/posts/hephaestus_gun/content/) was difficult 
   <source src="/videos/hephaestus_spin.webm" type="video/mp4">
 </video>
 
-Bonus chamber spin animation. Sure, you could spin the chamber by hand like some kind of peasant, but why not automate out every last shred of effort?
+Bonus chamber spin animation.

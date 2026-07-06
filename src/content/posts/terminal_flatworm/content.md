@@ -12,7 +12,7 @@ draft: false
 
 Since I had an [engine](/posts/terminal_life/content/) of sorts, I figured I would expand it into more of a real game. Snake is not the most complicated thing in the world, but it was fun to sit down and figure out the exact logic of it for myself. The biggest issue for me was the "explosion" on death; it's not that it's crazy complicated, I just have a hard time wrapping my head around any sort of recursive algorithm. They're like kryptonite to me.
 
-If I was going to continue on with this, my next step was going to be to recreate tetris. It's a lot more complicated and interesting; I have the logic for it sorted out in my head, but I figured there were many more productive things to be doing rather than making copies of games in the terminal that nobody is going to be playing. But maybe I'll revisit it in the future when I'm bored and there is time to kill.
+I think I've worked out how to make Tetris, and if I ever continue on with this, that'll be the next project. It's a lot more complicated and interesting. But I figured there were many more productive things to be doing rather than making copies of games in the terminal that nobody is going to be playing. Maybe I'll revisit it in the future sometime.
 
 # Demo
 

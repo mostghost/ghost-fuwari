@@ -1,7 +1,7 @@
 ---
 title: Island Creatures
 published: 2026-06-22
-description: A pair of alien critters for a little project.
+description: Some more aliens for a little project.
 image: "./paddlecrab.webp"
 tags: ["blender", "sculpt", "sci-fi", "monster"]
 category: 3D

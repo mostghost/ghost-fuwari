@@ -24,4 +24,4 @@ Assembling the base model is a quick process. In the past, I made it a point of 
 It's surprising how fast it can start to come together once you have a solid basis going. 
 
 ![Updated model](Chair.webp)
-Her throne is made of a lot of simple shapes broken up with a few irregular pieces. All of the details and interest is added while sculpting, but I think it has a decently strong design even on a basic level.
+Her throne is made of a lot of simple shapes broken up with a few irregular pieces. For a sculpted project like this, most of the work is done while sculpting, not modeling, but getting a decently strong design foundation is helpful.

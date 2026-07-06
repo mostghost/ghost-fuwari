@@ -1,7 +1,7 @@
 ---
 title: Claystalker
 published: 2025-06-16
-description: It's a good harvest.
+description: The harvester's harvest.
 image: "./still.webp"
 tags: ["blender", "sculpt", "animation", "clay", "monster"]
 category: 3D
@@ -20,11 +20,11 @@ To get a good claymation-like effect, the most obvious and important thing is to
 
 But there are a lot of more subtle tricks when animating. There's an intuition you can develop as to exactly how a character should move. Exactly how many frames should it take to twitch a finger? To jump and land? In this case, we have two characters- but I see three, since the hand acts a little differently.
 
-### Little Booger, in the front
+### Little Booger (at the front)
 
 Obviously, he's jiggly - which in this case is entirely through animation, rather than soft body physics or simulations - but besides that, I wanted to make him seem light and insubstantial, despite being a little porker. When he jumps he doesn't really need much wind-up, he simply pops up into place and easily propels himself on his tiny little legs.
 
-### The Stalker, in the back
+### The Stalker (at the back)
 
 By contrast, I really wanted to make sure the size and weight of this guy was emphasized. Every movement he makes is slow and deliberate, carried by immense momentum. It takes his tongue a long time to settle as it the heavy weight is dragged into position. I really wanted to get across his titanic size, since the perspective trickery makes him appear small on screen.
 
