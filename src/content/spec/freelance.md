@@ -1,6 +1,6 @@
 # Work for Hire
 
-While I offer [lessons to teach you how to create your own 3D art](/tutor/), you can always simply pay me to create whatever you need *for* you. I'm open to working on any project you might have in mind.
+While I offer [lessons to teach you how to create your own 3D art](/tutor/), you can always simply pay me to create whatever you need for you. I'm flexible and open to working on any project you might have in mind.
 
 I keep freelance work confidential and private; all work on this website are from my own personal projects. Other work I can do:
 

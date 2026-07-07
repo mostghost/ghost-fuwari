@@ -1,6 +1,6 @@
 # Prints On Demand
 
-I offer 3D prints in SLA or FDM for local pick-up or delivery. Prices are dependant on your specific project - please email me at [md@homonkulos.studio](mailto:md@homonkulos.studio) with whatever project you have in mind for a quote, or if you have any questions about anything.
+I offer 3D prints in SLA or FDM for local pick-up or delivery. Please email me at [md@homonkulos.studio](mailto:md@homonkulos.studio) with whatever project you have in mind for a quote, or if you have any questions.
 
 You can find models suitable for printing online, free or on sale, at places like:
 * Thingiverse
@@ -10,7 +10,7 @@ You can find models suitable for printing online, free or on sale, at places lik
 If all that you have is an idea, [I can make a model for you](/freelance/), or [modify a model you already have](/freelance/). If you want to learn how to make models of your own, [I can teach that, too](/tutor/).
 
 :::note
-If you have a project in mind that is supposed to touch food, such as a cookie cutter or custom bowl, you should be aware that both SLA and FDM are not food safe. I can recommend other possible solutions like casting your project in silicone rubber instead of printing, or coating a print in food safe epoxy - shoot me an email with what you need, and we can figure something out.
+If what you have in mind is supposed to touch food, such as a cookie cutter or custom bowl, you should be aware that both SLA and FDM are inherently not food safe for technical reasons. Shoot me an email anyway - there are solutions to that, depending on what you need.
 :::
 
 # SLA
@@ -23,6 +23,6 @@ My maximum SLA bed size is 215mm x 120mm x 220mm, at 16k resolution. Since that 
 
 For printing object prototypes and practical designs. **Fused Deposition Modeling** produces models made out of different types of plastic, with different properties.
 
-I offer PLA - cheap, ecofriendly cornstarch-based plastic which is very sturdy, or PETG - a little more expensive but even tougher than PLA and with a higher temperature resistance. Both are available in a wide range of colors, including transparent for PETG.
+I typically print in either PLA or PETG. Both are available in a wide range of colors - I can either give you a quote of what I have in stock, or you can make a request for something specific.
 
-My maximum FDM bed size is 300mm x 300mm x 400mm, typically with a 0.4mm nozzle - 0.2mm is available on request.
+My maximum FDM bed size is 300mm x 300mm x 400mm, typically with a 0.4mm nozzle - 0.2mm is available on request for greater detail.
