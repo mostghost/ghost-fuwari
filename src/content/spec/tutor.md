@@ -1,4 +1,4 @@
-# Overview
+# Learn 3D
 
  I teach anywhere from beginner to intermediate/advanced - by the time I'm finished, I want you to be good enough that you can continue to teach yourself and set yourself down your own path.
 
@@ -38,7 +38,8 @@ If you're at all unsure, you can grab [CPU-Z](https://www.cpuid.com/) to get a p
 | ----------- | ----------- |
 | **$30** | Per half hour |
 | **$50** | Per hour |
-| **$400** | For a package of 10 hours _(2 free lessons)_ |
+| **$350** | For a package of 8 hours _(1 free lesson)_ |
+| **$Free** | First 30 minute trial lesson |
 
 :::note
 I may be able to discount depending on your circumstances - email me and let me know if you cannot afford.

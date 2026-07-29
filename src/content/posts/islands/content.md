@@ -1,7 +1,7 @@
 ---
-title: The Schism
+title: Schism
 published: 2026-06-28
-description: For the few who remain.
+description: They come for the few who remain.
 image: "./the_islands2.webp"
 tags: ["blender", "sculpt", "sci-fi", "tech", "fantasy", "environment"]
 category: 3D
@@ -16,7 +16,7 @@ The [creatures](/posts/islands_aliens/content/) ended up being barely visible, b
 
 An earlier WIP shot.
 
-The DOF ends up completely obliterating any detail on the factory on the far island.
+In the final shot, the DOF unfortunately ends up completely obliterating any detail on the factory on the far island. Essentially making this a waste of time, but, live and learn.
 
 ![Island Tower](island_tower.webp)
 
