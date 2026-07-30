@@ -53,7 +53,7 @@ export const profileConfig: ProfileConfig = {
 	// `pnpm add @iconify-json/<icon-set-name>`
 	avatar: "assets/avatar/avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "M.D.",
-	bio: "Independent 3D Artist. A flesh automaton animated by neurotransmitters. Some day consumed by the infernal machine.",
+	bio: "Independent 3D Artist. A flesh automaton animated by neurotransmitters. Some day I will be consumed by the infernal machine.",
 	links: [
 		{
 			name: "Email",

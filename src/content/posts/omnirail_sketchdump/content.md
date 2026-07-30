@@ -5,7 +5,7 @@ description: Assorted aliens.
 image: "./boomi_colorized_1.webp"
 tags: ["omnirail", "alien", "sci-fi", "krita"]
 category: Sketches
-draft: false
+draft: True
 ---
 
 # The Collective
