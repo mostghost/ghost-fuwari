@@ -5,7 +5,7 @@ description: Remnants from a short lived experiment.
 image: "./sprite-monster.webp"
 tags: ["krita", "fantasy", "monster", "retro"]
 category: Sketches
-draft: false
+draft: true
 ---
 
 This is an empty post.
