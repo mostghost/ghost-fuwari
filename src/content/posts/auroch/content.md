@@ -18,10 +18,10 @@ draft: false
 # Gallery
 
 ![Base model](queen1.webp)
-Assembling the base model is a quick process. In the past, I made it a point of pride to always begin the sculpt of every character from nothing but a sphere, and pull every detail from it as I worked, but separating the body into chunks and shapes really is more practical and faster.
+Assembling the base model is a quick process, but important. I spend more time than you'd think at this stage - the fundamental shape is important to get right. At this stage you can already start to dial in personality and character.
 
 ![Updated model](queen2.webp)
 It's surprising how fast it can start to come together once you have a solid basis going. 
 
 ![Updated model](Chair.webp)
-Her throne is made of a lot of simple shapes broken up with a few irregular pieces. For a sculpted project like this, most of the work is done while sculpting, not modeling, but getting a decently strong design foundation is helpful.
+Her throne is made of a lot of simple shapes broken up with a few irregular pieces. Again, you may spend awhile on basic shapes, making sure the character and fundamentals are there. Once you begin sculpting it falls into place quickly.

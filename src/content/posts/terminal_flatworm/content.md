@@ -10,9 +10,9 @@ draft: false
 
 # Slithery
 
-Since I had an [engine](/posts/terminal_life/content/) of sorts, I figured I would expand it into more of a real game. Snake is not the most complicated thing in the world, but it was fun to sit down and figure out the exact logic of it for myself. The biggest issue for me was the "explosion" on death; it's not that it's crazy complicated, I just have a hard time wrapping my head around any sort of recursive algorithm. They're like kryptonite to me.
+Since I had an [engine](/posts/terminal_life/content/) of sorts, I figured I would expand it into more of a real game. Snake is not the most complicated thing in the world, but it was a fun weekend project.
 
-I think I've worked out how to make Tetris, and if I ever continue on with this, that'll be the next project. It's a lot more complicated and interesting. But I figured there were many more productive things to be doing rather than making copies of games in the terminal that nobody is going to be playing. Maybe I'll revisit it in the future sometime.
+I think I've worked out in my head the code logic behind Tetris, and if I ever continue on with this, that'll be the next project. It's a lot more complicated and interesting. But I figured there were many more productive things to be doing rather than making copies of games in the terminal that nobody is going to be playing. I may revisit it in the future.
 
 # Demo
 

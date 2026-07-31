@@ -11,7 +11,7 @@ draft: false
 
 # Automated Logo Delivery
  
-To be honest, the "ziggurail" doesn't really look much like a Ziggurat, but the stacked structure vaguely reminds me of one.
+So named because it's somewhat reminiscent of a ziggurat. At least, in my eyes, with the stacked structure and all.
 
 ![Right Side View](0100.webp)
 
@@ -19,4 +19,4 @@ To be honest, the "ziggurail" doesn't really look much like a Ziggurat, but the 
 
 ![Underside View](0103.webp)
 
-Some alternate views of the background, shot from up close and with alternative lighting. I went a little overboard with detail.
+Some alternate views of the background, shot from up close and with alternative lighting.

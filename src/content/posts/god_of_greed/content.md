@@ -8,18 +8,16 @@ category: Sketches
 draft: false
 ---
 
-# Our Ancestors
+# Our Beloved Ancestor
 
-When they cracked open the ancestors's ruins, it was inside. A living artefact of the ancient ones, a real link to the gods of the past. Unfortunately, it was empty, and hungry, and it ate most of the first team of archeologists. And also the second, and most of the army. But you cannot judge a real god by the morality of mere mortals. It keeps trying to leave the ruins of our most wise ancestors, and it will not stop trying to eat the steady stream of pilgrims. So the dutiful servants have had to chain it to keep it still, so that it may recieve their worship.
+A concept for a piece that's on the to-do list to render in proper 3D. Besides the drawing itself, I've dug in a bit and expanded on the characters the little blue dudes are standing in for, to prepare for when I get some time to sculpt it all out.
 
-# Gallery
+# Future Plans
 
-![Pilgram Guard](greedguard.webp)
+![Pilgrim Guard](greedguard.webp)
 
-![Pilgram Nun](greednun.webp)
+![Pilgrim Nun](greednun.webp)
 
-![Pilgram Priest](greedpriest.webp)
+![Pilgrim Priest](greedpriest.webp)
 
 ![Greed God](greedgod.webp)
-
-I'll return to this and recreate it in 3D, but first I needed a better idea of what the people on the ground truly look like, as well as another pass at the god itself. I'm pretty happy with these designs.
