@@ -5,7 +5,7 @@ description: An arpeggiator from scratch. It comes with a (very shoddy) keyboard
 image: "./arptoy2.webp"
 tags: ["python", "music", "code"]
 category: Code
-draft: false
+draft: True
 ---
 
 # What is this?

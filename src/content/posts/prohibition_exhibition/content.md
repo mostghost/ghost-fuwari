@@ -1,7 +1,7 @@
 ---
 title: Prohibition Exhibition
 published: 2023-10-25
-description: Some call it bootlegging. Some call it racketeering. I call it [show] business.
+description: Bootlegging.
 image: "./tbc.webp"
 tags: ["krita", "retro"]
 category: Sketches

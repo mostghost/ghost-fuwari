@@ -10,7 +10,7 @@ draft: false
 
 # Lounge
 
-An attempt to visualize what the interior style of the ship might look like. I had a few visual inspirations in mind - the video games Psychonauts, Space Channel 5, and funky 60's or 70's retro in general. I wanted to create a look which was clearly alien, and not the typical Sci-Fi environment - something that is comfortable but strange, lived in, inviting.
+An attempt to visualize a sci-fi visual style. I had a few inspirations in mind - the video games Psychonauts, Space Channel 5, and funky 60's or 70's retro in general. I wanted to create a look which was clearly alien, and not the typical Sci-Fi environment - something that is comfortable but strange, lived in, inviting.
 
 
 # Alt Color Schemes
