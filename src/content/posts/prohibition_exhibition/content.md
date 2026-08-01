@@ -1,7 +1,7 @@
 ---
 title: Prohibition Exhibition
 published: 2023-10-25
-description: Bootlegging.
+description: Cognac Carnival.
 image: "./tbc.webp"
 tags: ["krita", "retro"]
 category: Sketches

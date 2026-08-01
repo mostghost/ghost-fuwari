@@ -1,6 +1,6 @@
 ---
 title: Personal references
-published: 1000-01-01
+published: 9999-01-01
 tags: [meta]
 category: Meta
 draft: true

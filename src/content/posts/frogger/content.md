@@ -9,6 +9,3 @@ draft: false
 ---
 
 ![Frogger2](frog2.webp)
-
-![FroggerPrinted](frogger_printed.webp)
-Having a physical model you can hold in your hands after sculpting it is cool. 3D printing is pretty great.

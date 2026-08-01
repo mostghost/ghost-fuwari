@@ -10,9 +10,12 @@ draft: false
 
 # The Bodybuilder
 
-An experiment into extreme anatomy. I started off with a sphere, usually forming the top of his head. Then I pull his jaw out from the bottom, and stretch out a neck, and start yanking and stretching it out until I ended up with this. I may have gone a too far in a few places.
+An experiment into extreme anatomy.
 
-His weights are 2lbs each, by the way. Building up that show muscle means lowering the weight and upping the reps.
+The more traditional method of sculpting is to create a base mesh of simple shapes. You start off by building his arms out of something like cylinders, a sphere for his head, a box for his chest. You may have a library of previous base forms that you can pull out and piece together, just to give yourself a quick foundation to start with. Then you layer on top of that foundation and slowly build up your character.
+
+Sometimes though, I prefer to start with nothing more than a sphere to form his head. I'll grab the sphere and pull out a section that becomes his neck, and then pull that out further, stretching it like taffy to become his shoulders, then his arms, etc. This is not the most efficient way to work, but it can be fun and rewarding to make something completely "from scratch".
+
 
 # Turntable
 
@@ -20,18 +23,13 @@ His weights are 2lbs each, by the way. Building up that show muscle means loweri
   <source src="/videos/brog.webm" type="video/mp4">
 </video>
 
+His weights are 2lbs each, by the way. Building up that show muscle means lowering the weight and upping the reps.
+
+
 # Shirt
 
 <video width="1920" height="1080" muted autoplay loop controls>
   <source src="/videos/brog_shirt.webm" type="video/mp4">
 </video>
 
-I tried modelling him with a shirt. It's a little difficult to make one that fits. You could say it's an extremely tight fit. You may have also noticed it has essentially turned into a bra. I have no comment.
-
-# Gallery
-
-![firstbrog](brog1.webp)
-At one point he was slightly, marginally less extreme, but he just kept growing the more I sculpted him. Those tiny hands really did not work at all.
-
-![clownbrog](brog2.webp)
-What could have been.
+I tried modelling him with a shirt. It doesn't quite fit, in either sense of the word.
