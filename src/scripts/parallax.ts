@@ -4,6 +4,8 @@ export function initParallax(
 	fps = 24, 
 	smooth = 0.12,
   // Slightly less CPU drain than 60, and plus I feel it looks a little nicer.
+  // Also I do not actually use any of these. Remember that the actual values
+  // are attached to initialization.
 ) {
 	requestAnimationFrame(() => {
 		const parallax_element = document.getElementById(elementId);

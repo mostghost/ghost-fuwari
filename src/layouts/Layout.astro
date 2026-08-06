@@ -185,7 +185,8 @@ class="text-[16px] md:text-[20px] bg-black"
 		<script>
 			import { initParallax } from "@/scripts/parallax";
 
-			let fps = window.innerWidth > 768 ? 48 : 24;
+			let fps = window.innerWidth > 768 ? 144 : 24;
+			// Hack to force a lower FPS on phones as to be less CPU/battery demanding.
 
     		initParallax("parallax-1", 0.5, fps, 0.075);
     		initParallax("parallax-2", 1, fps, 0.2); 
