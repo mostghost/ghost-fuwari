@@ -10,6 +10,17 @@ draft: true
 
 If you are reading this, you should not be reading this and something has gone wrong. There is nothing substantial in this post, it is just where I dump my personal reference to markdown formatting.
 
+# Extra HTML formatting
+
+<span style="font-size: 1.5em">This text is 1.5× the size.</span>
+
+<div style="width:66.6667%; margin-left:auto">
+
+This block is right aligned. You can also still use **normal markdown** and it'll work.
+
+</div>
+
+
 # Media
 
 Raw video and audio can be added with direct html embeds.
